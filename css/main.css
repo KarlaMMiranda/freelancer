@@ -212,7 +212,6 @@ nav>.container>.menu-items>a:hover{
   margin-bottom: 10px;
 }
 
-
 .contact > ul{
   list-style: none;
   text-align: left;
@@ -256,14 +255,12 @@ footer{
   width: 100%;
   color: #FFF;
 }
-footer>.container{
-  
-}
+
 footer>.container>.box{
-  width: 20%;
-  margin: 50px 80px;
+  width: 33.3%;
   text-align: center;
   padding: 0px;
+  margin-top: 40px;
 }
 
 h2{
@@ -274,6 +271,7 @@ h2{
 footer>.container>.box>p{
   font-family: 'Lato', sans-serif;
   font-size: 18px;
+  margin: 40px;
 }
 
 .fa-facebook,
