@@ -1,3 +1,298 @@
-/*
- * Estilos de tu proyecto
- */
+body{
+  margin: 0 auto;
+  padding: 0;
+}
+
+nav{
+  font-family: 'Lato', sans-serif;
+  background: #2C3E50;
+  position: fixed;
+  width: 100%;
+  height: 119px;
+  color: #FFF;
+  font-size: 16px;
+  display: block;
+}
+
+.container{
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  display: block;
+}
+
+nav>.container>a{
+  text-decoration: none;
+  display: inline-block;
+  margin: 40px;
+  padding: 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+  letter-spacing: 0;
+}
+
+nav>.container>a:hover{
+  cursor: pointer;
+  text-decoration: none;
+}
+
+nav>.container>.menu-items{
+  width: auto;
+  display: block;
+}
+nav>.container>.menu-items>a{
+  margin: 50px 30px;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+nav>.container>.menu-items>a:hover{
+  cursor: pointer;
+  text-decoration: none;
+  color: #18BC9C;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.float-r{
+  float: right;
+}
+
+.float-l{
+  float: left;
+}
+
+#section-1{
+  background: #18BC9C;
+  height: 700px;
+  width: 100%;
+  color: #FFF;
+}
+
+#section-1 >.container>img{
+  width: 20%;
+  height: 20%;
+  margin-top: 180px;
+  padding-left: 30px;
+  display: inline-block;
+}
+
+#section-1 >.container>.items>a{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 76px;
+  font-weight: bold;
+  text-align: center;
+  margin: auto 290px;
+}
+
+#section-1>.container>.items>p{
+  font-family: 'Lato', sans-serif;
+  font-size: 28px;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.star-line>hr{
+  height: 5px;
+  background: #fff;
+  display: inline-block;
+  margin: 2px 0;
+  text-align: center;
+  width: 90px;
+}
+
+.star-line-2{
+  color: #212529;
+}
+
+.star-line-2>hr{
+  height: 5px;
+  background: #212529;;
+  display: inline-block;
+  margin: 2px 0;
+  text-align: center;
+  width: 90px;
+}
+
+#section-2{
+  background-color: #FFF;
+  height: 815px;
+  display: inline-block;
+  text-align: center;
+}
+
+#section-2>.container>p{
+  text-align: center;
+  font-weight: bold;
+  font-size: 48px;
+  font-family: 'Montserrat', sans-serif;
+  color: #212529;
+  margin-bottom: 10px;
+}
+
+.portfolio-img{
+  width: 100%;
+  display: block;
+}
+
+.portfolio-img>img{
+  display: inline-block;
+  width: 330px;
+  height: auto;
+  margin: 20px;
+}
+
+#section-3{
+  background: #18BC9C;
+  height: 580px;
+  width: 100%;
+  color: #FFF;
+}
+
+#section-3>.container{
+  padding-top: 30px;
+}
+
+#section-3>.container>p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  font-kerning: auto;
+  margin-bottom: 20px;
+}
+
+.text-1{
+  columns: 2;
+  padding: 40px 300px;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  text-align: left;
+  margin: 0 20px;
+}
+
+#section-3 > .container > .button{
+  background: #18BC9C;
+  color: #fff;
+  display: inline-block;
+  text-decoration: none;
+  border: solid #fff 2px;
+  border-radius: 5px;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  margin: 10px;
+  padding: 10px 0;
+  text-align: center;
+  width: 200px;
+}
+
+#section-3 > .container > .button:hover{
+  background: #fff;
+  color: #18BC9C;
+}
+
+#section-4 > .container{
+  background-color: #FFF;
+  height: 935px;
+  display: inline-block;
+  text-align: center;
+}
+
+#section-4 > .container > p{
+  text-align: center;
+  font-weight: bold;
+  font-size: 48px;
+  font-family: 'Montserrat', sans-serif;
+  color: #212529;
+  margin-bottom: 10px;
+}
+
+
+.contact > ul{
+  list-style: none;
+  text-align: left;
+  padding: 0 180px;
+}
+
+.contact > ul > li > input, textarea {
+  width: 80%;
+  padding: 25px 0;
+  line-height: 1px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 23px;
+  border: none;
+  border-bottom: 0.02px solid #EEEEEE;
+  margin: 0 120px;
+}
+
+textarea{
+  padding-bottom: 200px;
+}
+
+button{
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #fff;
+  background-color: #18bc9c;
+  margin-left: 120px;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 8px;
+  border-color: #fff;
+  width: 80px;
+  margin-top: 10px;
+}
+
+footer{
+  background: #2C3E50;
+  height: 380px;
+  width: 100%;
+  color: #FFF;
+}
+footer>.container{
+  
+}
+footer>.container>.box{
+  width: 20%;
+  margin: 50px 80px;
+  text-align: center;
+  padding: 0px;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+}
+
+footer>.container>.box>p{
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+}
+
+.fa-facebook,
+.fa-google-plus,
+.fa-twitter,
+.fa-linkedin,
+.fa-dribbble {
+  display: inline-block;
+  margin: 5px;
+  border: solid white 1px;
+  padding: 8px;
+  border-radius: 50%;
+  width: 18px;
+}
+
+.clear {
+  clear: both;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 30px;
+}
